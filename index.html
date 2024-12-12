@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <title>Trícia Camping</title>
+  </head>
+  <body>
+    <header id="header">
+      <a href="#" class="logo">Trícia Camping ❤️</a>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Destinos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </header>
+
+    <section>
+      <h2 id="text"><span>Saudades de acampar?</span><br />Aventure-se</h2>
+      <img src="src/assets/img/passaro1.png" id="bird1" />
+      <img src="src/assets/img/passaro2.png" id="bird2" />
+      <img src="src/assets/img/florest.png" id="forest" />
+
+      <a href="#" id="btn">Explore</a>
+
+      <img src="src/assets/img/pedras.png" id="rocks" />
+      <img src="src/assets/img/agua.png" id="water" />
+    </section>
+
+    <div class="sec-conrtainer">
+      <h1>Um é pouco, dois é muito bom. Três é bom demais<br /></h1>
+      <div class="sec">
+        <div class="card-1">
+          <div class="card-content">
+            <div class="card-front">
+              <p class="sub-title">Para uma pessoa</p>
+              <h1 class="title">BASIC CAMP</h1>
+              <p class="sub-title">5% de desconto</p>
+            </div>
+            <div class="card-back">
+              <h2 class="back-title">$89,90</h2>
+              <p class="description">
+                O mehor pacote para quem gosta de viajar sozinho.
+              </p>
+              <a href="#" class="btn">Adquira já </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-2">
+          <div class="card-content">
+            <div class="card-front">
+              <p class="sub-title">Perfeito para casal</p>
+              <h1 class="title">BASIC CAMP</h1>
+              <p class="sub-title">20% de desconto</p>
+            </div>
+            <div class="card-back">
+              <h2 class="back-title">$89,90</h2>
+              <p class="description">
+                Você e seu par, acampando bem juntinhos.
+              </p>
+              <a href="#" class="btn">Adquira já </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-3">
+          <div class="card-content">
+            <div class="card-front">
+              <p class="sub-title">3 pessoas ou mais</p>
+              <h1 class="title">Triple Camp</h1>
+              <p class="sub-title">35% de desconto</p>
+            </div>
+            <div class="card-back">
+              <h2 class="back-title">$289,90</h2>
+              <p class="description">Junte seus amigos e traga sua família!</p>
+              <a href="#" class="btn">Adquira já </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="https://tricia-sz.github.io/"
+        >Forest Graphics Designed by brgfx and Lexica Art | Desenvolvido por
+        paTrícia Souza 2023</a
+      >
+    </footer>
+    <script>
+      let text = document.getElementById('text');
+      let bird1 = document.getElementById('bird1');
+      let bird2 = document.getElementById('bird2');
+      let btn = document.getElementById('btn');
+      let rocks = document.getElementById('rocks');
+      let forest = document.getElementById('forest');
+      let water = document.getElementById('water');
+      let header = document.getElementById('header');
+
+      window.addEventListener('scroll', function () {
+        let value = window.scrollY;
+
+        text.style.top = 50 + value * -0.1 + '%';
+
+        bird2.style.top = value * -1.5 + 'px';
+        bird2.style.left = value * 2 + 'px';
+
+        bird1.style.top = value * -1.5 + 'px';
+        bird1.style.left = value * -5 + 'px';
+
+        btn.style.marginTop = value * 1.5 + 'px';
+
+        rocks.style.top = value * -0.12 + 'px';
+        forest.style.top = value * 0.25 + 'px';
+        header.style.top = value * 0.5 + 'px';
+      });
+    </script>
+  </body>
+</html>
