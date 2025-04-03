@@ -1,7 +1,7 @@
 # 🏕️ Florest Paralax
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/tricia-sz/florest_camping_parallax/refs/heads/master/.gitassets/capa.png?token=GHSAT0AAAAAAC7S6KFGR2WE6WVMOOLFAQTKZ7N4RMA" width="350" />
+<img src="https://github.com/tricia-sz/florest_camping_parallax/blob/master/.gitassets/capa.png" width="350" />
 
 
 <!-- <div data-badges>
