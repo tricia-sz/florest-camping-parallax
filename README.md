@@ -1,7 +1,7 @@
 # 🏕️ Florest Paralax
 
 <div align="center">
-<img src="https://github.com/tricia-sz/florest_camping_parallax/blob/master/.gitassets/capa.png" width="350" />
+<img src="https://raw.githubusercontent.com/tricia-sz/florest-camping-parallax/refs/heads/main/.gitassets/capa.png" width="350" />
 
 
 <!-- <div data-badges>
@@ -23,11 +23,12 @@
 Florest Paralax é um site de agendamento compra de pacotes de acampamento.
 Montando todo em CSS e HTML, somente para válidar como a tech parallax funciona.
 
+### SITE EM PRODUÇÃO:
+
+[https://trx-camping.netlify.app](https://trx-camping.netlify.app)
+
 ## 🖥️ Como rodar este projeto 🖥️
 
-### Requisitos:
-
-- [Node.js](https://nodejs.org/pt) instalado
 
 ### Execução:
 
@@ -45,7 +46,7 @@ Montando todo em CSS e HTML, somente para válidar como a tech parallax funciona
 
 
 
-6. Abra o arquivo html  na pasta local ou acesse o site em produção: [https://trx-camping.netlify.app/](https://trx-camping.netlify.app/).
+6. Abra o arquivo html  na pasta local e abra no navegador.
 
 ## 🗒️ Features 🗒️
 
